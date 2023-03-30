@@ -1,0 +1,55 @@
+html {
+    font-family: helvetica, sans-serif;
+    background-color: ivory;
+}
+
+#header {
+    color: seagreen;
+    text-align: center;
+    padding: 1px;
+    background-color: ivory;
+}
+
+.Tile {
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px dashed seagreen;
+    border-radius: 10px;
+    font-size: 10pt;
+    background-color: ivory;
+}
+
+.Year {
+    color: white;
+    background-color: seagreen
+}
+
+.Month {
+    color: seagreen
+}
+
+.Month:hover {
+    cursor: pointer;
+    color: white;
+    background-color: seagreen;
+    border: 1px solid seagreen;
+}
+
+#bottom {
+    clear: both;
+    float: center;
+    display: block;
+    position: center;
+    padding: 20px;
+    background-color: ivory;
+    text-align: center;
+    font-size: 10pt;
+
+}
+
+#bottom img {
+    width: 500px;
+}
