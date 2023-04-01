@@ -11,10 +11,10 @@ html {
 }
 
 .Tile {
-    width: 21%;
+    width: 23%;
     float: left;
     text-align: center;
-    margin: 5px;
+    margin: 3px;
     padding: 5px;
     border: 1px dashed seagreen;
     border-radius: 10px;
